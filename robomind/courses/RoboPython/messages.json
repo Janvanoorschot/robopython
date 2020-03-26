@@ -1,0 +1,8 @@
+{
+    "course.name":"Python Course",
+    "course.description.short":"Make Robo talk Python, learning the basic Python language features.",
+    "course.keywords":"Python",
+    "course.image.src":"/site/images/headPython1-500.jpg",
+    "course.image.large.src":"/site/images/headPython1.jpg",
+    "course.color":"#1b9478"
+}
