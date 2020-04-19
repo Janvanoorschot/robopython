@@ -1,7 +1,6 @@
 {
     "items" : [
-        ["challenge", ["robopython_1",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
-        ["presentation", ["storylineEnd",{}]]
+        ["challenge", ["robopython_1",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]]
     ],
     "concepts" : [
         "PY1"
