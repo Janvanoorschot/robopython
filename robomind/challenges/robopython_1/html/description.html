@@ -12,36 +12,65 @@
 </p>
 
 <p class="instruction">
+<h1>Basic Robo Instructions and their Python Equivalents</h1>
 <table style="width:100%">
     <tr>
         <th>Robo</th>
         <th>Python</th>
+        <th>Function</th>
     </tr>
-    <tr> <td>forward</td> <td>robo.forward(steps)</td> </tr>
-    <tr> <td>backward</td> <td>robo.backward(steps)</td> </tr>
-    <tr> <td>left</td> <td>robo.left(count)</td> </tr>
-    <tr> <td>right</td> <td>robo.right(count)</td> </tr>
-    <tr> <td>pickUp</td> <td>robo.pickUp()</td> </tr>
-    <tr> <td>putDown</td> <td>robo.putDown()</td> </tr>
-    <tr> <td>eatUp</td> <td>robo.eatUp()</td> </tr>
-    <tr> <td>paintWhite</td> <td>robo.paintWhite()</td> </tr>
-    <tr> <td>paintBlack</td> <td>robo.paintBlack()</td> </tr>
-    <tr> <td>stopPainting</td> <td>robo.stopPainting()</td> </tr>
-    <tr> <td>leftIsClear</td> <td>robo.leftIsClear()</td> </tr>
-    <tr> <td>leftIsObstacle</td> <td>robo.leftIsObstacle()</td> </tr>
-    <tr> <td>leftIsBeacon</td> <td>robo.leftIsBeacon()</td> </tr>
-    <tr> <td>leftIsWhite</td> <td>robo.leftIsWhite()</td> </tr>
-    <tr> <td>leftIsBlack</td> <td>robo.leftIsBlack()</td> </tr>
-    <tr> <td>frontIsClear</td> <td>robo.frontIsClear()</td> </tr>
-    <tr> <td>frontIsObstacle</td> <td>robo.frontIsObstacle()</td> </tr>
-    <tr> <td>frontIsBeacon</td> <td>robo.frontIsBeacon()</td> </tr>
-    <tr> <td>frontIsWhite</td> <td>robo.frontIsWhite()</td> </tr>
-    <tr> <td>frontIsBlack</td> <td>robo.frontIsBlack()</td> </tr>
-    <tr> <td>rightIsClear</td> <td>robo.rightIsClear()</td> </tr>
-    <tr> <td>rightIsObstacle</td> <td>robo.rightIsObstacle()</td> </tr>
-    <tr> <td>rightIsBeacon</td> <td>robo.rightIsBeacon()</td> </tr>
-    <tr> <td>rightIsWhite</td> <td>robo.rightIsWhite()</td> </tr>
-    <tr> <td>rightIsBlack</td> <td>robo.rightIsBlack()</td> </tr>
-    <tr> <td>flipCoin</td> <td>robo.flipCoin()</td> </tr>
+    <tr> <td>forward</td> <td>robo.forward(steps)</td><td>Go one step forward. Use forward(number) to do more steps at once.</td></tr>
+    <tr> <td>backward</td> <td>robo.backward(steps)</td><td>Go one step backward. Use backward(number) to do more steps at once.</td></tr>
+    <tr> <td>left</td> <td>robo.left(count)</td><td>Make a quarter turn to the left. Use left(number) to do more steps at once.</td></tr>
+    <tr> <td>right</td> <td>robo.right(count)</td><td>Make a quarter turn to the right. Use right(number) to do more steps at once.</td></tr>
+    <tr> <td>pickUp</td> <td>robo.pickUp()</td><td>Get the beacon in front of the robot.</td></tr>
+    <tr> <td>putDown</td> <td>robo.putDown()</td><td>Put a beacon in front of the robot.</td></tr>
+    <tr> <td>eatUp</td> <td>robo.eatUp()</td><td>Pick up and destroy the beacon in front.</td></tr>
+    <tr> <td>paintWhite</td> <td>robo.paintWhite()</td><td>Put the brush with white paint to the ground.</td></tr>
+    <tr> <td>paintBlack</td> <td>robo.paintBlack()</td><td>Put the brush with black paint to the ground.</td></tr>
+    <tr> <td>stopPainting</td> <td>robo.stopPainting()</td><td>Stop painting, hide the brush.</td></tr>
+    <tr> <td>leftIsClear</td> <td>robo.leftIsClear()</td><td>The location to the left of Robo is empty.</td></tr>
+    <tr> <td>leftIsObstacle</td> <td>robo.leftIsObstacle()</td><td>The location to the left of Robo is not empty.</td></tr>
+    <tr> <td>leftIsBeacon</td> <td>robo.leftIsBeacon()</td><td>The location to the left of Robo contains a beacon.</td></tr>
+    <tr> <td>leftIsWhite</td> <td>robo.leftIsWhite()</td><td>The location to the left of Robo is painted white.</td></tr>
+    <tr> <td>leftIsBlack</td> <td>robo.leftIsBlack()</td><td>The location to the left of Robo is painted black.</td></tr>
+    <tr> <td>frontIsClear</td> <td>robo.frontIsClear()</td><td>The location in front of Robo is empty.</td></tr>
+    <tr> <td>frontIsObstacle</td> <td>robo.frontIsObstacle()</td><td>The location in front of Robo is not empty.</td></tr>
+    <tr> <td>frontIsBeacon</td> <td>robo.frontIsBeacon()</td><td>The location in front of Robo contains a beacon.</td></tr>
+    <tr> <td>frontIsWhite</td> <td>robo.frontIsWhite()</td><td>The location in front of Robo is painted white.</td></tr>
+    <tr> <td>frontIsBlack</td> <td>robo.frontIsBlack()</td><td>The location in front of Robo is painted black.</td></tr>
+    <tr> <td>rightIsClear</td> <td>robo.rightIsClear()</td><td>The location to the right of Robo is empty.</td></tr>
+    <tr> <td>rightIsObstacle</td> <td>robo.rightIsObstacle()</td><td>The location to the right of Robo is not empty.</td></tr>
+    <tr> <td>rightIsBeacon</td> <td>robo.rightIsBeacon()</td><td>The location to the right of Robo contains a beacon.</td></tr>
+    <tr> <td>rightIsWhite</td> <td>robo.rightIsWhite()</td><td>The location to the right of Robo is painted white.</td></tr>
+    <tr> <td>rightIsBlack</td> <td>robo.rightIsBlack()</td><td>The location to the right of Robo is painted black.</td></tr>
+    <tr> <td>flipCoin</td> <td>robo.flipCoin()</td><td>Let Robo flop a Coin. Return True if heads, False otherwise.</td></tr>
 </table>
 </p>
+
+<h1>Basic Python Constructs</h1>
+<h2>Loops</h2>
+<h3>"for" loop</h3>
+<code style=display:block;white-space:pre-wrap>
+    robo.paintWhite()
+    for i in range (4):
+        robo.forward(3)
+    robo.right(1)
+</code>
+<h3>"while" loop</h3>
+<code style=display:block;white-space:pre-wrap>
+    while True:
+        if robo.frontIsObstacle():
+            quit()
+        else:
+            robo.forward(1)
+</code>
+<h3>"break" en "continue" statements</h3>
+<code style=display:block;white-space:pre-wrap>
+    count = 0
+    while True:
+        robo.frontIsObstacle(count):
+        count += 1
+        if count >= 5:
+            break
+</code>
