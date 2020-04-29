@@ -1,5 +1,5 @@
 {
-    "map": "default.map",
+    "map": "twobeaconsandline.map",
     "properties": {
         "max_duration":"8000",
         "difficulty": {

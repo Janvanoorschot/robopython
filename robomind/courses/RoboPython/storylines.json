@@ -2,8 +2,9 @@
     "storylines": [
         "1 - Getting started",
         "2 - Basics",
-        "3 - Functions",
-        "4 - Variables",
-        "5 - Python Specialities"
+        "3 - Flow Control",
+        "4 - Functions",
+        "5 - Variables",
+        "6 - 3D Printing"
     ]
 }
