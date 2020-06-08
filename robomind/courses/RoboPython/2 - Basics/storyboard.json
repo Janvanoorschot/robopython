@@ -5,9 +5,7 @@
         ["challenge", ["robopython_basics_3",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
         ["challenge", ["robopython_basics_4",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
         ["challenge", ["robopython_basics_5",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
-        ["challenge", ["robopython_basics_6",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
-        ["challenge", ["robopython_basics_7",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
-        ["challenge", ["robopython_basics_8",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]]
+        ["challenge", ["robopython_basics_6",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]]
     ],
     "concepts" : [
         "PY1"
