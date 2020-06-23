@@ -1,5 +1,5 @@
 {
-    "map": "twobeaconsandline.map",
+    "map": "castle.map",
     "properties": {
         "max_duration":"8000",
         "difficulty": {
