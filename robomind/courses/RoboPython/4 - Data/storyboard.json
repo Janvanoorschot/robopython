@@ -4,7 +4,7 @@
         ["challenge", ["robopython_data_2",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
         ["challenge", ["robopython_data_3",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
         ["challenge", ["robopython_data_4",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
-        ["challenge", ["robopython_data_5",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
+        ["challenge", ["robopython_data_5",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]]
     ],
     "concepts" : [
         "CP1",
