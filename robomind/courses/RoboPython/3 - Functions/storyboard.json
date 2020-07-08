@@ -1,11 +1,11 @@
 {
     "items" : [
-        ["challenge", ["robopython_functions_1",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
-        ["challenge", ["robopython_functions_2",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
-        ["challenge", ["robopython_functions_3",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
-        ["challenge", ["robopython_functions_4",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
-        ["challenge", ["robopython_functions_5",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]],
-        ["challenge", ["robopython_functions_6",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]"}]]
+        ["challenge", ["robopython_functions_1",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]],
+        ["challenge", ["robopython_functions_2",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]],
+        ["challenge", ["robopython_functions_3",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]],
+        ["challenge", ["robopython_functions_4",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]],
+        ["challenge", ["robopython_functions_5",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]],
+        ["challenge", ["robopython_functions_6",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]]
     ],
     "concepts" : [
         "PY1"
