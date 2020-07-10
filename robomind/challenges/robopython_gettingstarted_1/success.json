@@ -1,7 +1,7 @@
 {
 	"validationCheck":
 	{
-		"preRunWorld": "robot(4,8)",
+		"preRunWorld": "robot(7,11)",
 		"postRunWorld": "robot(7,8)"
 	},
 	"hintRules" : 
