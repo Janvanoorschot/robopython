@@ -1,7 +1,7 @@
 {
     "validationCheck":
     {
-        "postRunWorld": "beacon(2,13)",
+        "postRunWorld": "beacon(2,13) and robot(3,13)",
         "postRunProgram": "PickUp and PutDown"
 
     },
