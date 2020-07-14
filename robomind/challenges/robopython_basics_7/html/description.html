@@ -4,5 +4,20 @@
 <div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_basics_7/images/basics7.jpg"></div>
 
 <p>
-    Finish a loop when you are ready using 'break'.
+    The <em>break</em> statement makes it possible to prematurely terminate a loop (for or while).
+    When Python encounters a break, it stops processing the current loop.
+    Processing continues with the first line of code after the loop.
+</p>
+
+<code>
+    while robo.rightIsObstacle():
+        if not robo.frontIsObstacle():
+            robo.forward()
+        else:
+            break
+</code>
+
+<p class="instruction">
+    Trace back the white line until it changes into a grey line.
+    From this point drive to the upper left.
 </p>
