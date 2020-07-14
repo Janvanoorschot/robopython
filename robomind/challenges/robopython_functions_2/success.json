@@ -6,6 +6,6 @@
     "hintRules":
     [
         {"premise": "not robot(9,13)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"},
-        {"premise": "not minWhitePaintUsed(8)", "value" : "\"hint.auto.missedASpot", "type" : "usage"}
+        {"premise": "not minWhitePaintUsed(8)", "value" : "hint.auto.missedASpot", "type" : "usage"}
     ]
 }
