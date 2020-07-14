@@ -2,7 +2,7 @@
     "validationCheck":
     {
         "postRunWorld": "robot(7,11) and not white(9,9) and not white(11,12) and white(7,11) and white(7,8) and white(10,8) and white(10,11)",
-        "postRunUsage": "minWhitePaintUsed(13)",
+        "postRunUsage": "minWhitePaintUsed(13)"
     },
     "hintRules":
         [
