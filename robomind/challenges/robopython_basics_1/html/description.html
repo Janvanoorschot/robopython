@@ -4,11 +4,29 @@
 <div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_basics_1/images/basics1.jpg"></div>
 
 <p>
-    Pick up the beacon and put it down in the lower left corner of the map.
+    Let's start with a simple Python program that gives Robo a sequence of simple commands.
+<p>
+
+<p class="instruction">
+    Pick up the beacon and put it down in the lower left corner of the map. Use
+    the following instructions: (scroll down to the 'Basic Instructions' section of Help for a
+    complete list):
 </p>
 
+<pre>
+    robo.right()
+    robo.forward()
+    robo.pickUp()
+    robo.putDown()
+</pre>
+
 <p>
-    You can add values to different functions in python.
-    A function never starts with a number and it's explains something of what the function does.
-    The value of a function comes between  ( )  . In this case it's a number.
+    Like with the Robomind language, in Python you can pass arguments to each instruction.
+    Most of the instructions (also called 'methods' or 'functions') that Robo understand
+    accept a single number as argument. For example, the following instruction tells
+    Robo to move three paces forwards:
 </p>
+
+<pre>
+    robo.forward(3)
+</pre>
