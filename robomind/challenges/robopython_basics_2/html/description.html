@@ -4,13 +4,32 @@
 <div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_basics_2/images/basics2.jpg"></div>
 
 <p>
-    Move forward if there is no obstacle in front of you.
-    Keep turning right if there is an obstacle in front of you.
+    Like the Robomind language, Python provides an <code>if</code> statement to
+    conditionaly execute statements. The <code>if</code> in Python looks like this:
+</p>
+<pre>
+if x < 0:
+   x = 0
+   print('Negative changed to zero')
+elif x == 0:
+   print('Zero')
+elif x == 1:
+   print('Single')
+else:
+   print('More')
+</pre>
+<p>
+    No curly braces and an extra construct <code>elif</code> that is short for
+    the Robomind language <code>else if</code>, but for the rest ... looks familiar!!.
+</p>
+<p class="instruction">
+    Create four if/else statements that check if there is an obstacle in front of Robo.
+    Move backward if there is, move forward if there is none.
 </p>
 
 <p>
-    True and False are so-called “boolean values”, type Bool.
-    Anything that is true is automatically not False. An if-statement is a condition,
-    when the condition is True the if will be executed.
-    There are three logical operators: and, or en not.
+    The conditions of the if statement are so-called logical expressions.
+    Such an expression will result in the value True or False in Python (note the capital 'T' and 'F')
+    which is then used to decide to step to the appropriate part of the code to resume execution.
+    Basic instructions may also be composed with the boolean operators not, and, or.
 </p>
