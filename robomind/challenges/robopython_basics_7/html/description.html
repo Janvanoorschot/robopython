@@ -4,9 +4,23 @@
 <div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_basics_7/images/basics7.jpg"></div>
 
 <p>
-    The <em>break</em> statement makes it possible to prematurely terminate a loop (for or while).
+    The <code>break</code> statement makes it possible to prematurely terminate a loop (for or while).
     When Python encounters a break, it stops processing the current loop.
     Processing continues with the first line of code after the loop.
+</p>
+
+<p>
+    The <code>continue</code> statement will stop the execution of
+    current code block and restart the code block. Both the <code>break</code>
+    and the <code>continue</code> can be used in a <code>for</code> and ina
+    <code>while</code> loop.
+</p>
+
+<p>
+    As an example, the following code walks forward while
+    there is a wall to the right (robo.rightIsObjstacle() is True)
+    and there is no obstacle in front (robo.frontIsObstacle() is False).
+    Stop immediately when there is something in front of Robo.
 </p>
 
 <code>
@@ -18,6 +32,7 @@
 </code>
 
 <p class="instruction">
-    Trace back the white line until it changes into a grey line.
-    From this point drive to the upper left.
+    Go down to the black line and follow that line to the right until
+    there is a wall to the right of Robo. Use the <code>break</code> instruction in
+    your Solution.
 </p>
