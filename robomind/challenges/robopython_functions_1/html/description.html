@@ -4,17 +4,26 @@
 <div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_functions_1/images/functions1.jpg"></div>
 
 <p>
-    A function is a block of reusable code that performs a certain action.
-    To put a function to work, call it, with the parameters the function needs.
-    A function consists of three parts:
-    <ol>
-        <li>The name of the position</li>
-        <li>The parameters the function needs (if any)</li>
-        <li>The value that the function returns (if there is such a value)</li>
-    </ol>
+    A function contains a block of reusable code that performs a certain action.
+    Using a function means calling the function with a certain number
+    of parameters. An example function is:
 </p>
 
-<code>
-    def function_name(parameter_list):
-        actions
-</code>
+<pre>
+def my_function(arg1, arg2):
+    return arg1 + arg2
+</pre>
+
+<p>
+    This very simple function called <code>my_function</code> can be
+    used (called) like this:
+</p>
+
+<pre>
+    result5 = my_function(2,3)
+</pre>
+
+<p  class="instruction">
+    Create a function that draws a vertical line. Use that function to
+    draw a line of length 2 from the starting point of Robo.
+</p>
