@@ -5,8 +5,16 @@
 
 <p class="instruction">
     Start a Letter library by writing a function <code>function_b</code> that draws the letter B (see picture).
-    Copy over the functions that writes the letter A from the
-    previous Challenge. Try writing 'ABA'.
+</p>
+
+<p>
+    Both functions expect Robo to be in a free location without paint
+    and pointing upwards. We call this the expected  'start condition'
+    of each function. In order for the above code to work the 'end condition'
+    of every function in our library must be the 'start condition' of the
+    next function.  So after drawing every letter Robo should end up on the place where
+    the next letter should start and should point upwards.
+    Adjust your <code>function_b</code>  and try to write 'ABA'
 </p>
 
 <pre>
@@ -15,12 +23,3 @@
     function_a()
 </pre>
 
-<p>
-    Both functions expect Robo to be in a free location without paint
-    and pointing upwards. We call this the expected  'start condition'
-    of each function. In order for the above code to work the 'end condition'
-    of every function in our library must be the 'start condition' of the
-    next function.  So after drawing every letter Robo should end up on the place where
-    the next letter should start and should point upwards. Adjust your functions so they do this
-    and then try to write 'ABA'
-</p>

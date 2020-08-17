@@ -4,18 +4,21 @@
 <div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_functions_4/images/RoboABA.png"></div>
 
 <p  class="instruction">
-    To complete our Letter Library we add a  function <code>function_c</code> that
-    draws the letter C.
-    We also add a function <code>goto_line</code> that moves Robo to the beginning of a line.
+    To complete our Letter Library add a  function <code>function_c</code> that
+    draws the letter C (see picture).
     Test this with the following code:
 </p>
 
 <pre>
-    robo.goto_line(1)
     robo.function_a()
     robo.function_b()
     robo.function_c()
-    robo.goto_line(0)
+
+    robo.right(2)
+    robo.forward(5)
+    robo.right(1)
+    robo.forward(3)
+
     robo.function_c()
     robo.function_b()
     robo.function_a()
