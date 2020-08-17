@@ -1,18 +1,36 @@
-<h1>Variable</h1>
+<h1>Variables</h1>
 
 <p>
 </p>
 
 <!-- image with challenge -->
-<div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_data_1/images/data1.jpg"></div>
+<div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_data_1/images/RoboLines.png"></div>
 
 <p>
-  The variable line_length contains the number 3.
-  As long as line_length is greater than or equal to 0, the program will run.
+  Variables are used in Python to store data for later use. For example:
 </p>
 
+<pre>
+  variable_1 = 10
+  variable_1 = variable_1 - 1
+  if variable_1 == 9:
+    robo.message("yes!!!")
+</pre>
+
+<p>
+  Lots of different types of data can be stored in a variables such as:
+</p>
+
+<ul>
+  <li>A number such as 1, 2 or 3</li>
+  <li>A string such as "hello world"</li>
+  <li>A boolean such as True or False</li>
+  <li>A reference to a function such as <code>paint_line</code></li>
+  <li>A reference to an object such as <code>robo</code></li>
+  <li>A list of things such as <code>[1, "hello world", robo]</code></li>
+</ul>
+
+
 <p class="instruction">
-  Draw lines with lengths that
-  become shorter with every pass
-  using a variable
+  Use a variable to draw lines with a decreasing length. Start with length 3
 </p>

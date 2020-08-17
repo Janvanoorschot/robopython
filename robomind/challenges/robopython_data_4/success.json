@@ -1,11 +1,11 @@
 {
     "validationCheck":
     {
-        "postRunWorld": "robot(3,3)"
+        "postRunWorld": "robot(7,11)"
 
     },
     "hintRules" :
     [
-        {"premise": "not robot(3,3)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"}
+        {"premise": "not robot(7,11)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"}
     ]
 }
