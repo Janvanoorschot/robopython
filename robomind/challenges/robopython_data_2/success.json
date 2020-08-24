@@ -1,8 +1,11 @@
 {
     "validationCheck":
     {
+        "postRunWorld": "robot(10,11) and not robotHasBumped and minWhitePaintUsed(9)"
     },
     "hintRules" :
-        [
-        ]
+    [
+        {"premise": "not robot(10,11)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"},
+        {"premise": "not minWhitePaintUsed(9)", "value" : "hint.auto.missedASpot", "type" : "usage"}
+    ]
 }
