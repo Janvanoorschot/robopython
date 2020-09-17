@@ -1,15 +1,29 @@
-<h1>Functions using defaults (2)</h1>
+<h1>Functions, named variables and defaults</h1>
 
 <!-- image with challenge -->
 <div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_functions_6/images/functions6.jpg"></div>
 
 <p>
-    If you call the function paint_rectangle with paint_rectangle ()
-    then the default value is in this case the number 4 assigned
-    to the variable width and the default value in this
-    case the number 2 assigned to the variable height.
+    Sometimes one of the arguments to a function almost has the same value and
+    only sometimes has some non-standard value. In that case you can
+    use a named variable with a default value.
 </p>
 
+<pre>
+#!python
+# Challenge: Paint a line with a given length.
+
+def paint_line(length, turn=False):
+    if turn:
+        robo.right(1)
+    robo.paintWhite()
+    robo.forward(length)
+    robo.stopPainting()
+
+paint_line(2)
+</pre>
+
 <p class="instruction">
-    Paint a rectangle with a default width of 4 and a default height of 2 using a function.
+    Try out the Solution given above. Then, change the <code>turn</code>
+    argument.
 </p>

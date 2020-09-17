@@ -1,23 +1,31 @@
-<h1>Dictionary</h1>
+<h1>Dictionaries</h1>
 
 <!-- image with challenge -->
-<div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_data_4/images/data4.jpg"></div>
+<div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_data_4/images/data_4_new.png"></div>
 
 <p>
-    A “dictionary” is an unordered data structure that contains a collection of elements.
-    To find an element, you must know the “key” of the element.
-    Create dictionaries using curly braces {}.
-    You can create a dictionary with content by putting every element
-    you want in it between the curly braces,
-    with the syntax key: value, and commas between the elements.
-    To find a value associated with a specific key,
-    use the same syntax as for a list,
-    except that where you write the index for a list,
-    you write the searched key for a dictionary.
+    A dictionary is a collection of data items where each item data value is
+    stored under a certain unique key. To find an data value, you must know the key of that value.
+    Create a dictionary as follows:
 </p>
 
+<pre>
+    dict1 = {"key1": 1, "key2": 2, "key3": 101 }
+    dict2 = {1: "value1", 2: "value2", 3: "value3" }
+</pre>
+
+<p>
+    You can access items in a dictionaly by using the key as index as follows:
+</p>
+
+<pre>
+    my_int = dict1["key2"]
+    if my_int == 2:
+        robo.message("yes!!!!")
+</pre>
+
 <p class="instruction">
-    Let the robot travel along the left wall
-    using a dictionary with the commands
+    Fill the dictionary <code>translate</code> in the code so that Robo
+    draws the line as shown in the picture.
 </p>
 

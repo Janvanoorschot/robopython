@@ -1,14 +1,30 @@
-<h1>For loop, Paint the letter E</h1>
+<h1>For loop</h1>
 
 <!-- image with challenge -->
-<div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_basics_4/images/basics4.jpg"></div>
+<div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_basics_4/images/basics_4_new.png"></div>
 
 <p>
-    The difference with a while loop is that with a for loop you specify how often the code in the loop will
-    be executed.
+    The <code>for</code> loop executes a code block for each item in a sequence. The robomind
+    language does not know a sequence so this is new. For now, we only use one type of sequence, the 'range'.
+    The statement <code>range(10)</code> with generate a sequence of ten numbers from 0 to 9.
+    The following shows the number of 0 to 9 as a message (use a breakpoint to view each message):
+</p>
+
+<pre>
+    for w in range(10):
+        robo.message("number: {w}")
+</pre>
+
+<p>
+    now lets try this <code>for</code> loop for ourselfs:
 </p>
 
 <p class="instruction">
-    Paint the letter E using for loops, conditions and direction changes
+    Paint a line of 1, turn right,
+    Paint a line of 2, turn right,
+    Paint a line of 3, turn right,
+    Paint a line of 4, turn right,
+    Paint a line of 5, turn right.
+    Oh yes, use a <code>for</code> loop!
 </p>
 

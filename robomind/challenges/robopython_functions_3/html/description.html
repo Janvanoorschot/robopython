@@ -1,14 +1,25 @@
-<h1>Functions (3)</h1>
+<h1>A Letter Library</h1>
 
 <!-- image with challenge -->
-<div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_functions_2/images/functions3.jpg"></div>
-
-<p>
-    The function is called with paint_square (2).
-    The number 2 is taken over by the variable size.
-    En size is applied in the program.
-</p>
+<div style="float:right;margin:0 0 5em 1em;"><img src="/content/robopython_functions_3/images/RoboABA.png"></div>
 
 <p class="instruction">
-    Paint the letter B using a function.
+    Start a Letter library by writing a function <code>function_b</code> that draws the letter B (see picture).
 </p>
+
+<p>
+    Both functions expect Robo to be in a free location without paint
+    and pointing upwards. We call this the expected  'start condition'
+    of each function. In order for the above code to work the 'end condition'
+    of every function in our library must be the 'start condition' of the
+    next function.  So after drawing every letter Robo should end up on the place where
+    the next letter should start and should point upwards.
+    Adjust your <code>function_b</code>  and try to write 'ABA'
+</p>
+
+<pre>
+    function_a()
+    function_b()
+    function_a()
+</pre>
+
