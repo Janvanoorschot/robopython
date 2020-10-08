@@ -3,7 +3,8 @@
         ["challenge", ["robopython_data_1",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]],
         ["challenge", ["robopython_data_2",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]],
         ["challenge", ["robopython_data_3",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]],
-        ["challenge", ["robopython_data_4",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]]
+        ["challenge", ["robopython_data_4",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python"}]],
+        ["presentation", ["courseEnd",{}]]
     ],
     "concepts" : [
         "CP1",

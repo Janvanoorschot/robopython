@@ -4,7 +4,8 @@
         ["challenge", ["robopython_gettingstarted_2",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python", "skin": "grassSkinWeb"}]],
         ["challenge", ["robopython_gettingstarted_3",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python", "skin": "grassSkinWeb"}]],
         ["challenge", ["robopython_gettingstarted_4",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python", "skin": "grassSkinWeb"}]],
-        ["challenge", ["robopython_gettingstarted_5",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python", "skin": "grassSkinWeb"}]]
+        ["challenge", ["robopython_gettingstarted_5",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python", "skin": "grassSkinWeb"}]],
+        ["presentation", ["storylineEnd",{}]]
     ],
     "concepts" : [
         "PY1"
