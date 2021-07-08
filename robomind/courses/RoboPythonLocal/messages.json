@@ -1,0 +1,8 @@
+{
+    "course.name":"Local Python Course",
+    "course.description.short":"Program Robo using a Python program on your local computer.",
+    "course.keywords":"Python",
+    "course.image.src":"/site/images/headPython1-500.jpg",
+    "course.image.large.src":"/site/images/headPython1.jpg",
+    "course.color":"#1b9478"
+}

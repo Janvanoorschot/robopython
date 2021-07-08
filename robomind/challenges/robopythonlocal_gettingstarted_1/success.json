@@ -1,0 +1,11 @@
+{
+	"validationCheck":
+	{
+		"preRunWorld": "robot(7,11)",
+		"postRunWorld": "robot(7,8)"
+	},
+	"hintRules" : 
+	[
+		{"premise": "not robot(7,8)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"}
+	]
+}

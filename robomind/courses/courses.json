@@ -1,9 +1,10 @@
 {
     "courses": [
-        "RoboPython"
+        "RoboPython",
+        "RoboPythonLocal"
     ],
     "authorization": {
-        "authorized":["RoboPython"]
+        "authorized":["RoboPython", "RoboPythonLocal"]
     },
     "alwaysvisible": []
 }

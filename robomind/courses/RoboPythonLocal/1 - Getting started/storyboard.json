@@ -1,0 +1,9 @@
+{
+    "items" : [
+        ["challenge", ["robopythonlocal_gettingstarted_1",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[10,8,0.15]", "proglang": "python", "skin": "grassSkinWeb"}]],
+        ["presentation", ["storylineEnd",{}]]
+    ],
+    "concepts" : [
+        "PY1"
+    ]
+}
