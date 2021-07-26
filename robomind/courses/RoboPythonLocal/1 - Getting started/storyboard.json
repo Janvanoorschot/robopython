@@ -1,6 +1,6 @@
 {
     "items" : [
-        ["field", ["robopythonlocal_gettingstarted_1",{"var1": "val1"}]],
+        ["field", ["robopythonlocal_gettingstarted_1",{"game_name": "eat_three", "password":  "secret1"}]],
         ["presentation", ["storylineEnd",{}]]
     ],
     "concepts" : [
