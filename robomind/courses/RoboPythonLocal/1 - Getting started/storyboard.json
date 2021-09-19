@@ -1,6 +1,6 @@
 {
     "items" : [
-        ["field", ["robopythonlocal_gettingstarted_1",{"game_name": "eat_three", "password":  "secret1"}]],
+        ["field", ["robopythonlocal_gettingstarted_1",{"game_name": "eat_three", "password":  "secret1", "viewstart":"[4,10,0.45]", "proglang": "python"}]],
         ["presentation", ["storylineEnd",{}]]
     ],
     "concepts" : [
